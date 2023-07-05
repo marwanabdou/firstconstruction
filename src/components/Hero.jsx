@@ -20,9 +20,9 @@ const Hero = () => {
         <div className="flex flex-col items-start justify-end h-full">
           <div className="flex flex-col items-start justify-end">
             <h1 className="font-poppins font-semibold ss:text-[72px] text-7xl text-white ss:leading-[100.8px] leading-[75px] text-left">
-              We Are First FICC
+              We Are FICC
             </h1>
-            <p className="text-2xl text-white mt-5 text-left">
+            <p className="text-2xl text-white mt-5 md:text-left lg:text-justify">
               Our contracting company is backed by a dedicated team of experts who employ a systematic methodology to identify
               the most suitable solutions for your construction needs.
             </p>

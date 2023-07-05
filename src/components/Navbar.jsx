@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, Firsttext, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -15,9 +15,12 @@ const Navbar = () => {
   return (
 <nav className="fixed left-0 top-0 z-10 bg-white w-full flex justify-between items-center navbar">
   
-      <a href="/" >
-  <img src={logo} alt="first construction" className="w-[80px] h-[80px]" />
+      <a href="/" className="ml-2" >
+  <img src={logo} alt="first construction" className="w-[80px] h-[80px] ml-12" />
+  <img src={Firsttext} alt="first construction" className="w-[200px] h-[30px]" />
+
 </a>
+
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-10">
         {navLinks.map((nav, index) => (

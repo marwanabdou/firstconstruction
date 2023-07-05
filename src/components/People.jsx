@@ -128,7 +128,7 @@ const People = () => (
         <div>
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              className="object-contain w-full h-56 md:h-64 xl:h-80"
               src={Moda}
               alt="Person"
             />

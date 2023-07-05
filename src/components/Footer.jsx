@@ -5,16 +5,17 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section id="Contact" className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-        <img
-          src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72.14px] object-contain"
-        />
-        <p className={`mt-4 max-w-[312px]text-black`}>
-          INNOVATION IS OUR INSPIRATION
-        </p>
-      </div>
+    <div className="flex-[1] flex flex-col justify-start mr-10 mx-auto md:mx-0">
+  <img
+    src={logo}
+    alt="firstlogo"
+    className="w-[266px] h-[72.14px] object-contain"
+  />
+  <p className={`mt-4 max-w-[312px] text-black`}>
+    INNOVATION IS OUR INSPIRATION
+  </p>
+</div>
+
 
       
       <div>
