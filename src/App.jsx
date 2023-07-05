@@ -21,6 +21,13 @@ const App = () => (
 
       <Route path="/Catalog" element={<Catalog/>}/>
     </Routes>  
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+    <Footer />
+    </div>
+    </div>
+
+    
           </div>
         
 );

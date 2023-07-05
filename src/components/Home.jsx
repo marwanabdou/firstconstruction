@@ -28,7 +28,6 @@ const Home = () => (
           <Portfolio />
           <Clients />
           <CTA />
-          <Footer />
 
           {/* <Billing /> */}
 
