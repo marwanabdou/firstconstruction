@@ -7,51 +7,55 @@ const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
+  const handleNavLinkClick = (id) => {
+    setActive(id);
+    window.location.assign(`/#${id}`);
+  };
+
   return (
-<nav className="flex justify-around py-4 bg-black/80
-            backdrop-blur-md shadow-md w-full
-            fixed top-0 left-0 right-0 z-10">
+<nav className="fixed left-0 top-0 z-10 bg-white w-full flex justify-between items-center navbar">
+  
       <a href="/" >
   <img src={logo} alt="first construction" className="w-[80px] h-[80px]" />
 </a>
 
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 pr-10">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
+              active === nav.title ? "text-black" : "text-black"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            onClick={() => handleNavLinkClick(nav.id)}
+            >
+              <a href={`/#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden flex flex-1 justify-end items-center mr-2 bg-white">
         <img
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+          className="w-[28px] h-[28px] object-contain bg-white"
           onClick={() => setToggle(!toggle)}
         />
 
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === nav.title ? "text-white" : "text-dimWhite"
+                  active === nav.title ? "text-black" : "text-dimBlack"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
-              >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                onClick={() => handleNavLinkClick(nav.id)}
+                >
+                  <a href={`/#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>

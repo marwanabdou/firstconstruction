@@ -1,6 +1,9 @@
 import styles from './style';
-import { Billing, People, Services, Clients, CTA, Footer, Navbar, Stats, Hero, Portfolio, AboutUs } from "./components";
-import { Route, Routes } from 'react-router-dom';
+import { Billing, People, Services, Clients, CTA, Footer, Navbar, Stats, Hero, Portfolio, AboutUs, Home, Catalog, LearnMore } from "./components";
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
+
+
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -10,28 +13,16 @@ const App = () => (
           <Navbar />
         </div>
       </div>
-
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
       
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+    
+<Routes>
+      <Route path="/" element={<Home/>}/>
 
-          <Stats />
-          <AboutUs />
-          <People />
-          <Services />
-          <Portfolio />
-          <Clients />
-          <CTA />
-          <Footer />
-          {/* <Billing /> */}
-        </div>
-      </div>
-  </div>
+
+      <Route path="/Catalog" element={<Catalog/>}/>
+    </Routes>  
+          </div>
+        
 );
 
 export default App;

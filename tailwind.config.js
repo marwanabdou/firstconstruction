@@ -5,13 +5,51 @@ export default  {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
+        primary: "#ffffff",
         secondary: "#00f6ff",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        mybrown: '#5C4A1C',
+        mypurple: '#5C1C4E',
+        mygreen: '#7c9688',
+        mygray: '#36383d'
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        'body': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Inter', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
       },
     },
     screens: {
@@ -23,5 +61,8 @@ export default  {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    
+
+  ],
 };

@@ -1,7 +1,8 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { stoneresidence } from "../assets";
+import { building, stoneresidence, building4 } from "../assets";
+import {Link} from 'react-router-dom'
 
 
 const products = [
@@ -56,14 +57,18 @@ const products = [
   // More products...
 ]
 
+const handleClick = () => {
+  window.scrollTo(0, 0); // Scroll to the top of the page
+};
+
 
 const Portfolio = () => (
   
   <div id="Projects">
     
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white-900  text-white ">Featured Projects</h2>
-          <p className="text-gray-500 sm:text-xl  text-white-400 mb-10">It’s a challenge to condense 10 + years of projects into just a few, but these are some of the highlights.</p>
+      <h2 className="mb-4 text-7xl tracking-tight font-extrabold text- black  text- black ">Featured Projects</h2>
+          <p className="text-base text-gray-700 md:text-lg mb-10">It’s a challenge to condense 10 + years of projects into just a few, but these are some of the highlights.</p>
 
         <h2 className="sr-only">Products</h2>
 
@@ -78,13 +83,23 @@ const Portfolio = () => (
                 />
               </div>
               
-              <h3 className="mt-4 text-3xl font-large  text-white">{product.name}</h3>
-              <p className="mt-2 text-sm  text-white">{product.price}</p>
+              <h3 className="mt-4 text-3xl font-large  text- black">{product.name}</h3>
+              <p className="mt-2 text-sm  text- black">{product.price}</p>
               
             </a>
           ))}
         </div>
         <div className="flex justify-center mt-8">
+
+        <Link to="/Catalog">
+  <button
+    className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-[#262626] rounded-[10px] outline-none ${styles}`}
+    type="button"
+    onClick={handleClick}
+  >
+    View Portfolio
+  </button>
+</Link>
        
       </div>
       </div>

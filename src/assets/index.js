@@ -1,4 +1,10 @@
 import airbnb from "./airbnb.png";
+import interior from './interior.jpg'
+import interior2 from './interior2.jpg'
+import building4 from "./building4.jpg";
+import building7 from "./building7.jpg";
+import building5 from "./building5.jpg";
+import building6 from "./building6.jpg";
 import furnishing from "./furnishing.png";
 import landscape from "./landscape.png";
 import commercial from "./commercial.png";
@@ -24,7 +30,7 @@ import building2 from "./building2.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
-import menu from "./menu.svg";
+import menu from "./menu.png";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
@@ -43,6 +49,12 @@ import Hisham from "./Hisham.png";
 
 
 export {
+  building7,
+  interior,
+  interior2,
+  building4,
+  building5, 
+  building6,
   stoneresidence,
   furnishing,
   landscape,

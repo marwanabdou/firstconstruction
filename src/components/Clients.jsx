@@ -1,17 +1,56 @@
 import { clients } from "../constants";
 import styles from "../style";
+import "../constants/style.css";
 
 const Clients = () => (
-  <section className={`${styles.flexCenter} my-4`}>
-  <div className={`${styles.flexCenter} flex-wrap w-full`}>
-    {clients.map((client) => (
-      <div key={client.id} className={`flex-1 ${styles.flexCenter} sm:min-w-[192px] min-w-[120px] m-5 relative`}>
-        <img src={client.logo} alt="client_logo" className="sm:w-[192px] w-[100px] object-contain" />
-        <div className={`absolute inset-0 bg-black opacity-0 transition-opacity duration-300 hover:opacity-50`}></div>
-      </div>
-    ))}
+
+<div className="slider">
+  <div className="slide-track">
+    <div className="slide">
+      <img src="https://1000logos.net/wp-content/uploads/2020/09/Emaar-Properties-Logo-old.png" height='150' width="150" alt="emaar" />
+    </div>
+    <div className="slide">
+      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='150' width="150" alt="aldurr" />
+    </div>
+    <div className="slide">
+      <img src="https://realestate.eg/storage/posts/wKlXxUVNTH50NlBe.jpg" height='150' width="150" alt="sabbour" />
+    </div>
+    <div className="slide">
+      <img src="https://vso-media.ecommerce.tmg.com.eg/assets/imgs/Madinaty.png" height='150' width="150" alt="madinaty" />
+    </div>
+    <div className="slide">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9sbPL7Wf-d890_tcwKEulnoyfVN_N1EbFDzwa_o3&s"height='150' width="150" alt="mountainview" />
+    </div>
+    <div className="slide">
+      <img src="https://lafa.fudex-tech.net/wp-content/uploads/2021/10/%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF.png" height='150' width="150" alt="alrashed" />
+    </div>
+    <div className="slide">
+      <img src="https://lacosta-realestate.com/wp-content/uploads/2021/09/Memaar-Morshedy-png-01-1.png" height='150' width="150" alt="morshedy" />
+    </div>
+    <div className="slide">
+      <img src="https://1000logos.net/wp-content/uploads/2020/09/Emaar-Properties-Logo-old.png" height='150' width="150" alt="emaar" />
+    </div>
+    <div className="slide">
+      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='150' width="150" alt="aldurr" />
+    </div>
+    <div className="slide">
+      <img src="https://realestate.eg/storage/posts/wKlXxUVNTH50NlBe.jpg" height='150' width="150" alt="sabbour" />
+    </div>
+    <div className="slide">
+      <img src="https://vso-media.ecommerce.tmg.com.eg/assets/imgs/Madinaty.png" height='150' width="150" alt="madinaty" />
+    </div>
+    <div className="slide">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn9sbPL7Wf-d890_tcwKEulnoyfVN_N1EbFDzwa_o3&s"height='150' width="150" alt="mountainview" />
+    </div>
+    <div className="slide">
+      <img src="https://lafa.fudex-tech.net/wp-content/uploads/2021/10/%D8%B4%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D8%A7%D8%B4%D8%AF.png" height='150' width="150" alt="alrashed" />
+    </div>
+    <div className="slide">
+      <img src="https://lacosta-realestate.com/wp-content/uploads/2021/09/Memaar-Morshedy-png-01-1.png" height='150' width="150" alt="morshedy" />
+    </div>
+    
   </div>
-</section>
+</div>
 );
 
 export default Clients;
