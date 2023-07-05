@@ -46,12 +46,12 @@ import people03 from "./people03.png";
 import Moda from "./Moda.png";
 import Fares from "./Fares.png";
 import Hisham from "./Hisham.png";
-import Firsttext from "./Firsttext.png";
+import firsttext from "./firsttext.png";
 
 
 
 export {
-  Firsttext,
+  firsttext,
   building7,
   interior,
   interior2,

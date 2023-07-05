@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, Firsttext, logo, menu } from "../assets";
+import { close, firsttext, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
   
       <a href="/" className="ml-2" >
   <img src={logo} alt="first construction" className="w-[80px] h-[80px] ml-12" />
-  <img src={Firsttext} alt="first construction" className="w-[200px] h-[30px]" />
+  <img src={firsttext} alt="first construction" className="w-[200px] h-[30px]" />
 
 </a>
 
