@@ -26,7 +26,11 @@ body{
     width: calc(250px*14);
 }
 
-.slider .slide{
+.slider .slide {
     height: 100px;
     width: 250px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

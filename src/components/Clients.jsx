@@ -10,7 +10,7 @@ const Clients = () => (
       <img src="https://1000logos.net/wp-content/uploads/2020/09/Emaar-Properties-Logo-old.png" height='150' width="150" alt="emaar" />
     </div>
     <div className="slide">
-      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='150' width="150" alt="aldurr" />
+      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='120' width="120" alt="aldurr" />
     </div>
     <div className="slide">
       <img src="https://realestate.eg/storage/posts/wKlXxUVNTH50NlBe.jpg" height='150' width="150" alt="sabbour" />
@@ -31,7 +31,7 @@ const Clients = () => (
       <img src="https://1000logos.net/wp-content/uploads/2020/09/Emaar-Properties-Logo-old.png" height='150' width="150" alt="emaar" />
     </div>
     <div className="slide">
-      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='150' width="150" alt="aldurr" />
+      <img src="https://shajarat-aldurr.com/wp-content/uploads/2022/12/cropped-shajarat-logo-01-1.png" height='120' width="120" alt="aldurr" />
     </div>
     <div className="slide">
       <img src="https://realestate.eg/storage/posts/wKlXxUVNTH50NlBe.jpg" height='150' width="150" alt="sabbour" />
