@@ -47,10 +47,13 @@ import Moda from "./Moda.png";
 import Fares from "./Fares.png";
 import Hisham from "./Hisham.png";
 import firsttext from "./firsttext.png";
+import location from "./location.png";
+
 
 
 
 export {
+  location,
   firsttext,
   building7,
   interior,

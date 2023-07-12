@@ -20,22 +20,18 @@ const Footer = () => (
       
       <div>
         <h6
-          className="mb-4 flex justify-center font-semibold uppercase md:justify-start text-black">
+          className="mt-6 mb-3 flex justify-center font-semibold uppercase md:justify-start text-black">
           Contact
         </h6>
         <p className="mb-4 flex items-center justify-center md:justify-start text-black">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="black"
-            className="mr-3 h-5 w-5">
-            <path
-              d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
-            <path
-              d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
-          </svg>
-          <a className='text-decoration-line: underline' href="https://www.google.com/maps/place/Cairo+Business+Plaza,+N+90+St,+New+Cairo+1,+Cairo+Governorate+4740007/@30.0279999,31.4849091,17z/data=!3m1!4b1!4m6!3m5!1s0x145822f4c2456129:0x2cceaf7b61654143!8m2!3d30.0280369!4d31.48757!16s%2Fg%2F11bvt9p7g_?entry=ttu" target="_blank" rel="noopener noreferrer">Cairo Business Plaza, Office 504, New Cairo</a>
-        </p>
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="mr-3">
+    <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+  </svg>
+  <a className="text-decoration-line: underline" href="https://www.google.com/maps/place/Cairo+Business+Plaza,+N+90+St,+New+Cairo+1,+Cairo+Governorate+4740007/@30.0279999,31.4849091,17z/data=!3m1!4b1!4m6!3m5!1s0x145822f4c2456129:0x2cceaf7b61654143!8m2!3d30.0280369!4d31.48757!16s%2Fg%2F11bvt9p7g_?entry=ttu" target="_blank" rel="noopener noreferrer">
+    Cairo Business Plaza, Office 504, New Cairo
+  </a>
+</p>
+
         <p className="mb-4 flex items-center justify-center md:justify-start text- black">
           <svg
             xmlns="http://www.w3.org/2000/svg"

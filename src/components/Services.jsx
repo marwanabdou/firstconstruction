@@ -14,12 +14,13 @@ const Services = () => (
       Our team has a wealth of knowledge and varied project experience. As a company, we offer the following services:
     </p>
     <ul className="text-base md:text-lg mt-6 md:mt-8">
-    <li className="mt-3 md:mt-5 ">Commercial Projects</li>
+    <li className="mt-3 md:mt-5">Interior Design</li>
+    <li className="mt-3 md:mt-5 ">Landscape Design</li>
+    <li className="mt-3 md:mt-5 ">Remodeling</li>
+    <li className="mt-3 md:mt-5 ">Furnishing</li>
+    <li className="mt-3 md:mt-5 ">Residential Projects</li>
+ <li className="mt-3 md:mt-5 ">Commercial Projects</li>
     <li className="mt-3 md:mt-5 ">Industrial Projects</li>
-      <li className="mt-3 md:mt-5">Interior Design</li>
-      <li className="mt-3 md:mt-5 ">Remodeling</li>
-      <li className="mt-3 md:mt-5 ">Landscape Design</li>
-      <li className="mt-3 md:mt-5 ">Furnishing</li>
       
     </ul>
   </div>
