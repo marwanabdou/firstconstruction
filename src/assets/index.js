@@ -49,12 +49,45 @@ import Hisham from "./Hisham.png";
 import firsttext from "./firsttext.png";
 import location from "./location.png";
 import largelogo from "./largelogo.png";
+import hydeparkfront from "./hydeparkfront.jpeg";
+import Mountainviewfront from "./Mountainviewfront.jpeg";
+import stoneresidencefront from "./stoneresidencefront.jpeg";
+import BuroujVilla from "./BuroujVilla.pdf";
+import MadinatyLandscape from "./MadinatyLandscape.pdf";
+import SquareApartement from "./SquareApartement.pdf";
+import DyarLandscape from "./DyarLandscape.pdf";
+import MadinatyVilla from "./MadinatyVilla.pdf";
+import StoneResidenceApartement from "./StoneResidenceApartment.pdf";
+import MountainViewIvilla from "./MountainViewIvilla.pdf";
+import MountainView3 from "./MountainView3.pdf";
+import ElSheroukVilla from "./ElSheroukVilla.pdf";
+import DyarLuxuryToilet from "./DyarLuxuryToilet.pdf";
+import first from "./first.jpeg";
+import second from "./second.jpeg";
+import third from "./third.jpeg";
+
 
 
 
 
 
 export {
+  first,
+  second, 
+  third,
+  DyarLuxuryToilet,
+  BuroujVilla,
+  MadinatyLandscape,
+  SquareApartement,
+  DyarLandscape,
+  MadinatyVilla,
+  StoneResidenceApartement,
+  MountainViewIvilla,
+  MountainView3,
+  ElSheroukVilla,
+  hydeparkfront,
+  Mountainviewfront,
+  stoneresidencefront,
   largelogo,
   location,
   firsttext,

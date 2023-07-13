@@ -1,5 +1,5 @@
 import styles from "../style";
-import { building, building1, building2, building4, building5, building6 } from "../assets";
+import { building, building1, building2, building4, building5, building6, first } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -8,7 +8,7 @@ const Hero = () => {
       id="Home"
       className={`flex md:flex-row flex-col backdrop-brightness-50 ${styles.paddingY}`}
       style={{
-        background: `url(${building4})`,
+        background: `url(${first})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh"

@@ -1,5 +1,5 @@
 import React from 'react';
-import { building7, interior2 } from '../assets';
+import { building7, interior2, second } from '../assets';
 import { motion } from "framer-motion";
 
 
@@ -10,7 +10,7 @@ const AboutPage = () => {
   return (
     <div className="relative mt-20">
     
-      <img src={interior2} className="w-full h-auto" alt="Background" />
+      <img src={second} className="w-full h-auto" alt="Background" />
 
       <div className="relative">
   <div className="bg-white p-4 md:p-8">

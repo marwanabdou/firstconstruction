@@ -1,59 +1,91 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { building, stoneresidence, building4 } from "../assets";
+import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront } from "../assets";
 import {Link} from 'react-router-dom'
 
 
 const products = [
   {
     id: 1,
-    name: 'Stone Residence',
-    href: stoneresidence,
-    price: 'Industrial',
+    name: 'Al Burouj Villa',
+    href: BuroujVilla,
+    price: 'Residential',
     imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageAlt: 'Al Burouj Villa',
   },
   {
     id: 2,
-    name: 'Mountain View',
-    href: stoneresidence,
-    price: 'Commercial',
+    name: 'Square Apartement',
+    href: SquareApartement,
+    price: 'Residential',
     imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    imageAlt: 'Square Apartement',
   },
   {
     id: 3,
-    name: 'Shajaret Al Durr',
-    href: stoneresidence,
-    price: 'Commercial',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
-  },
-  {
-    id: 4,
-    name: 'Emaar',
-    href: stoneresidence,
+    name: 'Madinaty Villa',
+    href: MadinatyVilla,
     price: 'Residential',
     imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    imageAlt: 'Madinaty Villa',
   },
   {
     id: 4,
-    name: 'Point 90',
-    href: stoneresidence,
-    price: 'Commercial',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    name: 'Mountain View I Villa',
+    href: MountainViewIvilla,
+    price: 'Residential',
+    imageSrc: Mountainviewfront,
+    imageAlt: 'Mountain View I Villa',
   },
   {
-    id: 4,
-    name: 'Al Rashid',
-    href: stoneresidence,
-    price: 'Commercial',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    id: 5,
+    name: 'Mountain View Villa',
+    href: MountainView3,
+    price: 'Residential',
+    imageSrc: Mountainviewfront,
+    imageAlt: 'Mountain View Villa',
   },
+  {
+    id: 6,
+    name: 'Stone Residence Apartement',
+    href: StoneResidenceApartement,
+    price: 'Residential',
+    imageSrc: stoneresidencefront,
+    imageAlt: 'Stone Residence Apartement',
+  },
+  {
+    id: 7,
+    name: 'El Sherouk Villa',
+    href: ElSheroukVilla,
+    price: 'Residential',
+    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageAlt: 'El Sherouk Villa',
+  },
+  {
+    id: 8,
+    name: 'Madinaty Landscape',
+    href: MadinatyLandscape,
+    price: 'Residential Landscape',
+    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageAlt: 'Madinaty Landscape',
+  },
+  {
+    id: 9,
+    name: 'Dyar Landcape',
+    href: DyarLandscape,
+    price: 'Residential Landscape',
+    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageAlt: 'Dyar Landcape',
+  },
+  // {
+  //   id: 10,
+  //   name: 'Dyar Luxury Toilet',
+  //   href: DyarLuxuryToilet,
+  //   price: 'Residential',
+  //   imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+  //   imageAlt: 'Residential',
+  // },
   // More products...
 ]
 

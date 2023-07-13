@@ -9,11 +9,11 @@ const Footer = () => (
   <img
     src={largelogo}
     alt="firstlogo"
-    className="w-[266px] h-[72.14px] object-contain"
+    className="w-[300px] h-[100px] object-contain"
   />
-  <p className={`mt-4 max-w-[312px] text-black`}>
-    INNOVATION IS OUR INSPIRATION
-  </p>
+  {/* <p className={`mt-4 max-w-[312px] text-black`}>
+    INNOVATION IS OUR INSPIRATION w-[266px] h-[72.14px]
+  </p> */}
 </div>
 
 
