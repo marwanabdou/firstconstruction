@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, firsttext, logo, menu } from "../assets";
+import { close, firsttext, logo, menu, largelogo } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -16,8 +16,8 @@ const Navbar = () => {
 <nav className="fixed left-0 top-0 z-10 bg-white w-full flex justify-between items-center navbar">
   
       <a href="/" className="ml-2" >
-  <img src={logo} alt="first construction" className="w-[80px] h-[80px] ml-12" />
-  <img src={firsttext} alt="first construction" className="w-[200px] h-[30px]" />
+  <img src={largelogo} alt="first construction" className="w-[200px] h-[100px] ml-5" />
+  {/* <img src={firsttext} alt="first construction" className="w-[200px] h-[30px]" /> */}
 
 </a>
 

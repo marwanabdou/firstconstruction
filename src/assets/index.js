@@ -48,11 +48,14 @@ import Fares from "./Fares.png";
 import Hisham from "./Hisham.png";
 import firsttext from "./firsttext.png";
 import location from "./location.png";
+import largelogo from "./largelogo.png";
+
 
 
 
 
 export {
+  largelogo,
   location,
   firsttext,
   building7,
