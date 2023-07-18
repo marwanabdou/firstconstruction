@@ -48,7 +48,7 @@ const products = [
   },
   {
     id: 6,
-    name: 'Stone Residence Apartement',
+    name: 'Stone Residence Duplex Apartement',
     href: StoneResidenceApartement,
     price: 'Residential',
     imageSrc: stoneresidencefront,
@@ -72,7 +72,7 @@ const products = [
   },
   {
     id: 9,
-    name: 'Dyar Landcape',
+    name: 'Dyar Landscape',
     href: DyarLandscape,
     price: 'Residential Landscape',
     imageSrc: DeyarLandscape2,
