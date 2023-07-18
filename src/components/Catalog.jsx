@@ -67,7 +67,7 @@ const products = [
   },
   {
     id: 9,
-    name: 'Dyar Landcape',
+    name: 'Dyar Landscape',
     href: DyarLandscape,
     price: 'Residential Landscape',
     imageSrc: DeyarLandscape2,
