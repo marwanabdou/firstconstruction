@@ -1,7 +1,7 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront } from "../assets";
+import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront, DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj  } from "../assets";
 import {Link} from 'react-router-dom'
 
 
@@ -11,7 +11,7 @@ const products = [
     name: 'Al Burouj Villa',
     href: BuroujVilla,
     price: 'Residential',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: Borouj,
     imageAlt: 'Al Burouj Villa',
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: 'Square Apartement',
     href: SquareApartement,
     price: 'Residential',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: SquareCompoundApartement,
     imageAlt: 'Square Apartement',
   },
   {
@@ -27,7 +27,7 @@ const products = [
     name: 'Madinaty Villa',
     href: MadinatyVilla,
     price: 'Residential',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: MadinatyVilla2,
     imageAlt: 'Madinaty Villa',
   },
   {
@@ -43,7 +43,7 @@ const products = [
     name: 'Mountain View Villa',
     href: MountainView3,
     price: 'Residential',
-    imageSrc: Mountainviewfront,
+    imageSrc: MVilla,
     imageAlt: 'Mountain View Villa',
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: 'El Sherouk Villa',
     href: ElSheroukVilla,
     price: 'Residential',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: SheroukVilla,
     imageAlt: 'El Sherouk Villa',
   },
   {
@@ -67,7 +67,7 @@ const products = [
     name: 'Madinaty Landscape',
     href: MadinatyLandscape,
     price: 'Residential Landscape',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: MadinatyLandscape2,
     imageAlt: 'Madinaty Landscape',
   },
   {
@@ -75,7 +75,7 @@ const products = [
     name: 'Dyar Landcape',
     href: DyarLandscape,
     price: 'Residential Landscape',
-    imageSrc: 'https://i.ibb.co/tCfVky2/carosel-3.png',
+    imageSrc: DeyarLandscape2,
     imageAlt: 'Dyar Landcape',
   },
   // {

@@ -1,4 +1,5 @@
-import styles from "../style";
+import styles from "../style"; 
+import "../constants/Hero.css"
 import { building, building1, building2, building4, building5, building6, first } from "../assets";
 import GetStarted from "./GetStarted";
 
@@ -23,7 +24,7 @@ const Hero = () => {
             <p className="text-5xl text-white mt-5 md:text-left lg:text-justify text-center my-auto">
                  {/* Our contracting company is backed by a dedicated team of experts who employ a systematic methodology to identify
               the most suitable solutions for your construction needs. */}
-              A One Stop Shop
+               A One Stop Shops
             </p>
           </div>
         </div>

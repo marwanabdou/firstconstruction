@@ -65,6 +65,25 @@ import DyarLuxuryToilet from "./DyarLuxuryToilet.pdf";
 import first from "./first.jpeg";
 import second from "./second.jpeg";
 import third from "./third.jpeg";
+import DeyarLandscape1 from "./DeyarLandscape1.jpg";
+import DeyarLandscape2 from "./DeyarLandscape2.jpg";
+import MadinatyLandscape2 from "./MadinatyLandscape.jpeg";
+import SheroukVilla from "./SheroukVilla.jpeg";
+import MadinatyVilla2 from "./MadinatyVilla.jpeg";
+import MVilla from "./MVilla.jpeg";
+import SquareCompoundApartement from "./SquareCompoundApartement.jpeg";
+import E_Ahmed from "./E_Ahmed.jpeg";
+import E_Fares from "./E_Fares.jpeg";
+import Borouj from "./Borouj.jpeg";
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72,6 +91,16 @@ import third from "./third.jpeg";
 
 
 export {
+  Borouj,
+  DeyarLandscape1,
+  DeyarLandscape2,
+  MadinatyLandscape2,
+  SheroukVilla,
+  MadinatyVilla2,
+  MVilla,
+  SquareCompoundApartement,
+  E_Ahmed,
+  E_Fares,
   first,
   second, 
   third,

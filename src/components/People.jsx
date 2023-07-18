@@ -1,4 +1,4 @@
-import { Moda, Hisham, Fares } from "../assets";
+import { Moda, Hisham, Fares, E_Ahmed, E_Fares } from "../assets";
 
 const People = () => (
   // <div className="mt-20">
@@ -141,18 +141,18 @@ const People = () => (
           </div>
         </div>
         <div>
-          <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
+        <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-contain w-full h-56 md:h-64 xl:h-80"
-              src={Hisham}
-              alt="Person"
+              src={E_Ahmed}
+              alt="Ahmed El-Sherif"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
               <p className="mb-1 text-lg font-bold text-gray-100">
-              Person 4
+              Ahmed El-Sherif
 
               </p>
-              <p className="mb-4 text-xs text-gray-100">Position</p>
+              <p className="mb-4 text-xs text-gray-100">Projects Manager</p>
               
               
             </div>
