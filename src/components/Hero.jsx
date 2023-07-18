@@ -24,7 +24,7 @@ const Hero = () => {
             <p className="text-5xl text-white mt-5 md:text-left lg:text-justify text-center my-auto">
                  {/* Our contracting company is backed by a dedicated team of experts who employ a systematic methodology to identify
               the most suitable solutions for your construction needs. */}
-               A One Stop Shops
+               A One Stop Shop
             </p>
           </div>
         </div>
