@@ -1,4 +1,4 @@
-import { building,  stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront , DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj  } from "../assets";
+import { building,  stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront , DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj, MountainViewNew  } from "../assets";
 
 const products = [
   {
@@ -38,7 +38,7 @@ const products = [
     name: 'Mountain View Villa',
     href: MountainView3,
     price: 'Residential',
-    imageSrc: MVilla,
+    imageSrc: MountainViewNew,
     imageAlt: 'Mountain View Villa',
   },
   {
@@ -79,13 +79,10 @@ const products = [
 const Catalog = () => (
   <div id="Projects">
     <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 m-20">
-      <h2 className="mb-4 text-7xl tracking-tight font-extrabold text-black text-center">
+      <h2 className="mb-10 text-7xl tracking-tight font-extrabold text-black text-center">
         Our Portfolio
       </h2>
-      <p className="text-base text-gray-700 md:text-lg mb-10 text-center">
-        It’s a challenge to condense 10+ years of projects into just a few, but these are some of
-        the highlights.
-      </p>
+     
       {/* <img className="mb-20" src={building} alt="stone" /> */}
 
       <h2 className="text-5xl font-bold mb-10 text-black">Residential Projects</h2>

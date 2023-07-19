@@ -75,6 +75,10 @@ import SquareCompoundApartement from "./SquareCompoundApartement.jpeg";
 import E_Ahmed from "./E_Ahmed.jpeg";
 import E_Fares from "./E_Fares.jpeg";
 import Borouj from "./Borouj.jpeg";
+import amo from "./3amo.jpeg";
+import MountainViewNew from "./MountainViewNew.jpeg";
+
+
 
 
 
@@ -91,6 +95,8 @@ import Borouj from "./Borouj.jpeg";
 
 
 export {
+  amo,
+  MountainViewNew,
   Borouj,
   DeyarLandscape1,
   DeyarLandscape2,

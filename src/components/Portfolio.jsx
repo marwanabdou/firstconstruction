@@ -1,7 +1,7 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront, DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj  } from "../assets";
+import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront, DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj, MountainViewNew  } from "../assets";
 import {Link} from 'react-router-dom'
 
 
@@ -43,7 +43,7 @@ const products = [
     name: 'Mountain View Villa',
     href: MountainView3,
     price: 'Residential',
-    imageSrc: MVilla,
+    imageSrc: MountainViewNew,
     imageAlt: 'Mountain View Villa',
   },
   {
