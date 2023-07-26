@@ -44,7 +44,6 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import Moda from "./Moda.png";
-import Fares from "./Fares.png";
 import Hisham from "./Hisham.png";
 import firsttext from "./firsttext.png";
 import location from "./location.png";
@@ -75,7 +74,7 @@ import SquareCompoundApartement from "./SquareCompoundApartement.jpeg";
 import E_Ahmed from "./E_Ahmed.jpeg";
 import E_Fares from "./E_Fares.jpeg";
 import Borouj from "./Borouj.jpeg";
-import amo from "./3amo.jpeg";
+import amo from "./amo.jpeg";
 import MountainViewNew from "./MountainViewNew.jpeg";
 
 
@@ -170,8 +169,7 @@ export {
   durr,
   sabbour,
   mountainview,
-  Moda,
-  Fares, 
+  Moda, 
   Hisham, 
   email
 };

@@ -1,4 +1,4 @@
-import { Moda, Hisham, Fares, E_Ahmed, E_Fares, amo } from "../assets";
+import { Moda, Hisham, E_Ahmed, E_Fares, amo } from "../assets";
 
 const People = () => (
   // <div className="mt-20">
@@ -90,7 +90,7 @@ const People = () => (
         <div>
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-contain w-full h-56 md:h-64 xl:h-80"
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
               src={amo}
               alt="Person"
             />
@@ -108,7 +108,7 @@ const People = () => (
         <div>
         <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-contain w-full h-56 md:h-64 xl:h-80"
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
               src={E_Ahmed}
               alt="Ahmed El-Sherif"
             />
@@ -127,8 +127,8 @@ const People = () => (
         <div>
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-contain w-full h-56 md:h-64 xl:h-80"
-              src={Fares}
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              src={E_Fares}
               alt="Person"
             />
             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
@@ -146,7 +146,7 @@ const People = () => (
         <div>
           <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
             <img
-              className="object-contain w-full h-56 md:h-64 xl:h-80"
+              className="object-cover w-full h-56 md:h-64 xl:h-80"
               src={Moda}
               alt="Person"
             />
