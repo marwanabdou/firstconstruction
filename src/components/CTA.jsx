@@ -6,7 +6,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Contact Us</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Let us build your dream project
+        Build your dream project with us
       </p>
     </div>
 

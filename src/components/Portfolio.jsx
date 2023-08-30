@@ -40,7 +40,7 @@ const products = [
   },
   {
     id: 5,
-    name: 'Mountain View Villa',
+    name: 'Mountain View Luxury Apartment',
     href: MountainView3,
     price: 'Residential',
     imageSrc: MountainViewNew,
@@ -100,7 +100,7 @@ const Portfolio = () => (
     
       <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
       <h2 className="mb-4 text-7xl tracking-tight font-extrabold text- black  text- black ">Featured Projects</h2>
-          <p className="text-base text-gray-700 md:text-lg mb-10">It’s a challenge to condense 10+ years of projects into just a few, but these are some of the highlights.</p>
+          <p className="text-base text-gray-700 md:text-lg mb-10">It’s a challenge to condense most of our work into a single portfolio, but the following are some of our prestigious projects.  </p>
 
         <h2 className="sr-only">Products</h2>
 

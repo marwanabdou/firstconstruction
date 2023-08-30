@@ -35,7 +35,7 @@ const products = [
   },
   {
     id: 5,
-    name: 'Mountain View Villa',
+    name: 'Mountain View Luxury Apartment',
     href: MountainView3,
     price: 'Residential',
     imageSrc: MountainViewNew,

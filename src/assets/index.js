@@ -70,7 +70,7 @@ import MadinatyLandscape2 from "./MadinatyLandscape.jpeg";
 import SheroukVilla from "./SheroukVilla.jpeg";
 import MadinatyVilla2 from "./MadinatyVilla.jpeg";
 import MVilla from "./MVilla.jpeg";
-import SquareCompoundApartement from "./SquareCompoundApartement.jpeg";
+import SquareCompoundApartement from "./SquareCoumpoundApartement.jpeg";
 import E_Ahmed from "./E_Ahmed.jpeg";
 import E_Fares from "./E_Fares.jpeg";
 import Borouj from "./Borouj.jpeg";
