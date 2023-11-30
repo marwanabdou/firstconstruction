@@ -1,6 +1,6 @@
 import airbnb from "./airbnb.png";
-import interior from './interior.jpg'
-import interior2 from './interior2.jpg'
+import interior from "./interior.jpg";
+import interior2 from "./interior2.jpg";
 import building4 from "./building4.jpg";
 import building7 from "./building7.jpg";
 import building5 from "./building5.jpg";
@@ -14,8 +14,8 @@ import remodelling from "./remodelling.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
 import card from "./card.png";
-import livingroom from "./livingroom.png"
-import email from './email.png';
+import livingroom from "./livingroom.png";
+import email from "./email.png";
 import emaar from "./emaar.png";
 import durr from "./durr.png";
 import sabbour from "./sabbour.png";
@@ -76,24 +76,26 @@ import E_Fares from "./E_Fares.jpeg";
 import Borouj from "./Borouj.jpeg";
 import amo from "./amo.jpeg";
 import MountainViewNew from "./MountainViewNew.jpeg";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import AlBuroujDP from "./AlBuroujDP.jpg";
+import MountainViewDP from "./MountainViewDP.jpeg";
+import SheroukVillaDP from "./SheroukVillaDP.jpg";
+import MVVillaDP from "./MVVillaDP.jpeg";
+import MadinatyVillaDP from "./MadinatyVillaDP.jpeg";
+import wwd from "./wwd.jpeg";
+import MVLuxuryAptDP from "./MVLuxuryAptDP.jpeg";
+import SquareApartementDP from "./SquareApartementDP.jpeg";
+import StoneResidenceDP from "./StoneResidenceDP.jpg";
 
 export {
+  StoneResidenceDP,
+  MountainViewDP,
+  SheroukVillaDP,
+  MVVillaDP,
+  MadinatyVillaDP,
+  wwd,
+  MVLuxuryAptDP,
+  SquareApartementDP,
+  AlBuroujDP,
   amo,
   MountainViewNew,
   Borouj,
@@ -107,7 +109,7 @@ export {
   E_Ahmed,
   E_Fares,
   first,
-  second, 
+  second,
   third,
   DyarLuxuryToilet,
   BuroujVilla,
@@ -129,7 +131,7 @@ export {
   interior,
   interior2,
   building4,
-  building5, 
+  building5,
   building6,
   stoneresidence,
   furnishing,
@@ -169,7 +171,7 @@ export {
   durr,
   sabbour,
   mountainview,
-  Moda, 
-  Hisham, 
-  email
+  Moda,
+  Hisham,
+  email,
 };

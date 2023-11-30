@@ -1,7 +1,7 @@
 import { feedback } from "../constants";
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
-import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront, DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj, MountainViewNew  } from "../assets";
+import { building, stoneresidence, building4, DyarLuxuryToilet, BuroujVilla, SquareApartement, MadinatyVilla, MountainViewIvilla, MountainView3, StoneResidenceApartement,   ElSheroukVilla, MadinatyLandscape, DyarLandscape, hydeparkfront, Mountainviewfront, stoneresidencefront, DeyarLandscape1, DeyarLandscape2 ,MadinatyLandscape2 ,SheroukVilla ,MadinatyVilla2 ,MVilla ,SquareCompoundApartement, Borouj, MountainViewNew, AlBuroujDP, SquareApartementDP, MadinatyVillaDP, MountainViewDP, MVLuxuryAptDP, StoneResidenceDP, SheroukVillaDP  } from "../assets";
 import {Link} from 'react-router-dom'
 
 
@@ -11,7 +11,7 @@ const products = [
     name: 'Al Burouj Villa',
     href: BuroujVilla,
     price: 'Residential',
-    imageSrc: Borouj,
+    imageSrc: AlBuroujDP,
     imageAlt: 'Al Burouj Villa',
   },
   {
@@ -19,7 +19,7 @@ const products = [
     name: 'Square Apartement',
     href: SquareApartement,
     price: 'Residential',
-    imageSrc: SquareCompoundApartement,
+    imageSrc: SquareApartementDP,
     imageAlt: 'Square Apartement',
   },
   {
@@ -27,7 +27,7 @@ const products = [
     name: 'Madinaty Villa',
     href: MadinatyVilla,
     price: 'Residential',
-    imageSrc: MadinatyVilla2,
+    imageSrc: MadinatyVillaDP,
     imageAlt: 'Madinaty Villa',
   },
   {
@@ -35,7 +35,7 @@ const products = [
     name: 'Mountain View I Villa',
     href: MountainViewIvilla,
     price: 'Residential',
-    imageSrc: Mountainviewfront,
+    imageSrc: MountainViewDP,
     imageAlt: 'Mountain View I Villa',
   },
   {
@@ -43,7 +43,7 @@ const products = [
     name: 'Mountain View Luxury Apartment',
     href: MountainView3,
     price: 'Residential',
-    imageSrc: MountainViewNew,
+    imageSrc: MVLuxuryAptDP,
     imageAlt: 'Mountain View Villa',
   },
   {
@@ -51,7 +51,7 @@ const products = [
     name: 'Stone Residence Duplex Apartement',
     href: StoneResidenceApartement,
     price: 'Residential',
-    imageSrc: stoneresidencefront,
+    imageSrc: StoneResidenceDP,
     imageAlt: 'Stone Residence Apartement',
   },
   {
@@ -59,7 +59,7 @@ const products = [
     name: 'El Sherouk Villa',
     href: ElSheroukVilla,
     price: 'Residential',
-    imageSrc: SheroukVilla,
+    imageSrc: SheroukVillaDP,
     imageAlt: 'El Sherouk Villa',
   },
   {

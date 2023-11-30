@@ -1,11 +1,11 @@
-import { livingroom, twitter, furnishing, landscape, commercial, industrial, remodelling, building, interior, third } from "../assets";
+import { livingroom, twitter, furnishing, landscape, wwd, industrial, remodelling, building, interior, third } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
 const Services = () => (
 
 <div id='Services' className="relative mt-20">
-      <img src={third} className="w-full h-auto" alt="Background" />
+      <img src={wwd} className="w-full h-auto" alt="Background" />
 
       <div className="relative bg-black">
   <div className="bg-white p-4 md:p-8">
